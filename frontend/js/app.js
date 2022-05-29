@@ -2,14 +2,6 @@ let accounts;
 
 // METAMASK CONNECTION
 window.addEventListener("DOMContentLoaded", async () => {
-  const welcomeH1 = document.getElementById("welcomeH1");
-  const welcomeH2 = document.getElementById("welcomeH2");
-  const welcomeP = document.getElementById("welcomeP");
-
-  welcomeH1.innerText = welcome_h1;
-  welcomeH2.innerText = welcome_h2;
-  welcomeP.innerHTML = welcome_p;
-
   if (window.ethereum) {
     window.web3 = new Web3(window.ethereum);
     checkChain();
@@ -32,8 +24,8 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoplay: true,
     direction: 'ttb',
     height: "calc(100vh - 90px)",
-    width: '30vw',
-    autoHeight: true,
+    width: '20vw',
+    autoHeight: false,
   });
   splide.mount();
 
@@ -53,6 +45,7 @@ const updateConnectStatus = async () => {
   const spinner = document.getElementById("spinner");
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
+    spinner.classList.add('hidden');
     onboardButton.onclick = () => {
       onboardButton.innerText = "Connecting...";
       onboardButton.disabled = true;

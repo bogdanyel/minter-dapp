@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CodeCats</title>
+    <title>Amazing Planets NFT</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,14 +28,19 @@
     <link rel="stylesheet" href="css/three-dots.min.css" />
     <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/parallax.css" />
   </head>
+  
   <body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
     <header>
       <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
-          </a>
+        <div class="logo center">
+          <img src="images/x-icon/favicon-32x32.png" alt="logo" />
+          <strong class="header-title">Amazing Planets NFT</strong>
         </div>
         <div class="menu">
           <a
@@ -53,7 +58,7 @@
             <img src="images/header/twitter.webp" alt="Twitter" />
           </a>
           <a
-            href="https://opensea.io/collection/codecats"
+            href="https://opensea.io/collection/amazingplanets"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,16 +71,167 @@
       </div>
     </header>
 
-    <section class="container not-connected">
-      <div>
-        <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
-        <h1 id="welcomeH1">Welcome to the CodeCats NFT Project!</h1>
-        <p id="welcomeP">
-          The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.
-        </p>
-      </div>
-    </section>
+    <div class="x-container">
+      <br>
+      <h1>Welcome to the AmazingPlanets NFT Project!</h1>
+      <br>
+      <h3>
+        This collection contains 3600 unique amazing planets as part of a 1/1
+        edition. From our own galaxy or a far away one, each amazing planet and
+        its fellows have their own unique terrain, background, size, speed and
+        direction of rotation. Get your own now!
+      </h3>
+      <br>
+      <h2>Connect to MetaMask to Get Started</h2>
+    </div>
 
+    <br>
+    <div class="container">
+      <h1>Planet Types (based on their composition)</h1>
+    </div>
+
+    <div class="grid-container">
+      <!-- Hycean -->
+      <div class="grid-image">
+        <img src="images/planets/Hycean.png" class="photo" alt="Hycean" />
+      </div>
+      <div class="grid-description">
+        <div>
+          <h3>Hycean</h3>
+          <p>
+            A hypothetical type of habitable planet described as a hot,
+            water-covered planet with a hydrogen-rich atmosphere.
+          </p>
+        </div>
+      </div>
+      <!-- Terrestrial -->
+      <div class="grid-description">
+        <div>
+          <h3>Terrestrial</h3>
+          <p>
+            A planet that is composed primarily of carbonaceous or silicate
+            rocks or metals.
+          </p>
+        </div>
+      </div>
+      <div class="grid-image">
+        <img
+          src="images/planets/Terrestrial.png"
+          class="photo"
+          alt="Terrestrial"
+        />
+      </div>
+      <!-- Gas Giant -->
+      <div class="grid-image">
+        <img src="images/planets/GasGiant.png" class="photo" alt="Gas Giant" />
+      </div>
+      <div class="grid-description">
+        <div>
+          <h3>Gas Giant</h3>
+          <p>A massive planet composed primarily of hydrogen and helium.</p>
+        </div>
+      </div>
+      <!-- Carbon -->
+      <div class="grid-description">
+        <div>
+          <h3>Carbon</h3>
+          <p>
+            A theoretical terrestrial planet that could form if protoplanetary
+            discs are carbon-rich and oxygen-poor.
+          </p>
+        </div>
+      </div>
+      <div class="grid-image">
+        <img src="images/planets/Carbon.png" class="photo" alt="Carbon" />
+      </div>
+      <!-- Desert -->
+      <div class="grid-image">
+        <img src="images/planets/Desert.png" class="photo" alt="Desert" />
+      </div>
+      <div class="grid-description">
+        <div>
+          <h3>Desert</h3>
+          <p>A theoretical terrestrial planet with very little water.</p>
+        </div>
+      </div>
+      <!-- Gas Dwarf -->
+      <div class="grid-description">
+        <div>
+          <h3>Gas Dwarf</h3>
+          <p>A low-mass planet composed primarily of hydrogen and helium.</p>
+        </div>
+      </div>
+      <div class="grid-image">
+        <img src="images/planets/GasDwarf.png" class="photo" alt="Gas Dwarf" />
+      </div>
+      <!-- Chthorian -->
+      <div class="grid-image">
+        <img src="images/planets/Chthorian.png" class="photo" alt="Chthorian" />
+      </div>
+      <div class="grid-description">
+        <div>
+          <h3>Chthorian</h3>
+          <p>An extrasolar planet that orbits close to its parent star.</p>
+        </div>
+      </div>
+      <!-- Helium -->
+      <div class="grid-description">
+        <div>
+          <h3>Helium</h3>
+          <p>
+            A theoretical planet that may form via mass loss from a low-mass
+            dwarf.
+          </p>
+        </div>
+      </div>
+      <div class="grid-image">
+        <img src="images/planets/Helium.png" class="photo" alt="Helium" />
+      </div>
+      <!-- Ice Giant -->
+      <div class="grid-image">
+        <img src="images/planets/IceGiant.png" class="photo" alt="Ice Giant" />
+      </div>
+      <div class="grid-description">
+        <div>
+          <h3>Ice Giant</h3>
+          <p>
+            A theoretical planet with an icy surface and consists of a global
+            cryosphere.
+          </p>
+        </div>
+      </div>
+      <!-- Poison Giant -->
+      <div class="grid-description">
+        <div>
+          <h3>Poison Giant</h3>
+          <p>A planet which is inhospitable to all life forms.</p>
+        </div>
+      </div>
+      <div class="grid-image">
+        <img
+          src="images/planets/PoisonGiant.png"
+          class="photo"
+          alt="Poison Giant"
+        />
+      </div>
+      <!-- Ocean Planet -->
+      <div class="grid-image">
+        <img
+          src="images/planets/OceanPlanet.png"
+          class="photo"
+          alt="Ocean Planet"
+        />
+      </div>
+      <div class="grid-description">
+        <div>
+          <h3>Ocean Planet</h3>
+          <p>
+            A theoretical planet which has a substantial fraction of its mass
+            made of water.
+          </p>
+        </div>
+      </div>
+    </div>
     <section class="container">
       <div class="countdown card">
         <div id="countdown">
@@ -104,7 +260,7 @@
         </div>
         <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
         <p id="mainText">
-          A new batch of cute cats will be available very soon!
+          A new batch of amazing planets will be available very soon!
         </p>
         <a
           id="actionButton"
@@ -112,7 +268,7 @@
           target="_blank"
           rel="noopener noreferrer"
           class="hero-btn btn"
-          ><span>Join the Catmmunity</span>
+          ><span>Join the Community</span>
         </a>
         <div id="mintContainer" class="mint-container hidden">
           <div class="info-container">
@@ -131,7 +287,9 @@
           </div>
           <div class="mint-qty">
             <span>
-              <button class="input-number-decrement btn" id="mintDecrement">–</button>
+              <button class="input-number-decrement btn" id="mintDecrement">
+                –
+              </button>
               <input
                 id="mintInput"
                 class="input-number btn"
@@ -140,7 +298,9 @@
                 min="1"
                 max="5"
               />
-              <button class="input-number-increment btn" id="mintIncrement">+</button>
+              <button class="input-number-increment btn" id="mintIncrement">
+                +
+              </button>
             </span>
             <button id="setQtyMax" class="btn">SET MAX</button>
           </div>
@@ -176,31 +336,19 @@
       <div class="splide__track">
         <ul class="splide__list">
           <li class="splide__slide">
-            <img src="images/slider/0.png" />
+            <img src="images/slider/Planet-1.gif" />
           </li>
           <li class="splide__slide">
-            <img src="images/slider/1.png" />
+            <img src="images/slider/Planet-2.gif" />
           </li>
           <li class="splide__slide">
-            <img src="images/slider/2.png" />
+            <img src="images/slider/Planet-3.gif" />
           </li>
           <li class="splide__slide">
-            <img src="images/slider/3.png" />
+            <img src="images/slider/Planet-4.gif" />
           </li>
           <li class="splide__slide">
-            <img src="images/slider/4.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/5.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/6.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/7.png" />
-          </li>
-          <li class="splide__slide">
-            <img src="images/slider/8.png" />
+            <img src="images/slider/Planet-5.gif" />
           </li>
         </ul>
       </div>
