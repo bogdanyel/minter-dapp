@@ -38,7 +38,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://www.amazingplanets.world", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://www.fantasyplanets.world", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
