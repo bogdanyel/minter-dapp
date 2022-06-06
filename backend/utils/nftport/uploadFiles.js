@@ -10,7 +10,7 @@ const { LIMIT } = require(`${basePath}/src/config.js`);
 const _limit = RateLimit(LIMIT);
 
 const allMetadata = [];
-const regex = new RegExp("^([0-9]+).png");
+const regex = new RegExp("^([0-9]+).gif");
 
 async function main() {
   console.log("Starting upload of images...");
