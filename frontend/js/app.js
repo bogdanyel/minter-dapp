@@ -157,6 +157,9 @@ async function loadInfo() {
   const mintButton = document.getElementById("mintButton");
   const spinner = document.getElementById("spinner");
 
+  console.log(`Presale mint active: ${presaleMintActive}`);
+  console.log(`Public sale mint active: ${publicMintActive}`);
+
   let startTime = "";
   if (publicMintActive) {
     mainHeading.innerText = h1_public_mint;
