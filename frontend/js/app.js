@@ -376,3 +376,15 @@ async function mint() {
     }
   }
 }
+
+// card close button
+var close = document.getElementsByClassName("close-card-btn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.closest('.backdrop-container');
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}

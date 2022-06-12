@@ -41,6 +41,21 @@ body {
   overflow: hidden;
 }
 
+.backdrop-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* HEADER */
 
 header {
@@ -207,6 +222,23 @@ footer .container {
 .show-card {
   opacity: 1;
   transform: translateX(0);
+}
+
+.close-card-btn {
+  position: relative;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close-card-btn:hover {
+  color: var(--accent-color);
 }
 
 /* COUNTDOWN SECTION */
