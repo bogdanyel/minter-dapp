@@ -130,13 +130,16 @@ const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
     name: `${namePrefix} #${_edition}`,
     description: description,
-    image: `${baseUri}/${_edition}.png`,
+    file_url: `${baseUri}/${_edition}.gif`,
+    image: `${baseUri}/${_edition}.gif`,
     attributes: attributesList,
-    dna: sha1(_dna),
-    edition: _edition,
+    custom_fields: {
+      dna: sha1(_dna),
+      edition: _edition,
+      date: dateTime,
+      compiler: "Fantasy Art Generator v1.3",
+    },
     ...extraMetadata,
-    date: dateTime,
-    compiler: "Fantasy Art Generator v1.3",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
@@ -301,7 +304,7 @@ const writeMetaData = (_data) => {
 };
 
 const saveMetaDataSingleFile = (_editionCount) => {
-  let metadata = metadataList.find((meta) => meta.edition == _editionCount);
+  let metadata = metadataList.find((meta) => meta.custom_fields.edition == _editionCount);
   debugLogs
     ? console.log(
         `Writing metadata for ${_editionCount}: ${JSON.stringify(metadata)}`
@@ -333,7 +336,7 @@ const startCreating = async () => {
   let failedCount = 0;
   let abstractedIndexes = [];
   for (
-    let i = network == NETWORK.sol ? 0 : 0;
+    let i = network == NETWORK.sol ? 0 : 1;
     i <= layerConfigurations[layerConfigurations.length - 1].growEditionSizeTo;
     i++
   ) {

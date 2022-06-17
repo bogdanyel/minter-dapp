@@ -11,7 +11,7 @@ START = parseInt(START);
 END = parseInt(END);
 if (!START || !END) {
   console.log(
-    "Please provide a start and end edition number. Example: npm run refresh_os --start 1 --end 10"
+    "Please provide a start and end edition number. Example: npm run refresh_os --start=1 --end=10"
   );
   process.exit(1);
 }

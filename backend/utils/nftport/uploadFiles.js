@@ -25,7 +25,7 @@ async function main() {
         let jsonFile = fs.readFileSync(`${basePath}/build/json/${fileName}.json`);
         let metaData = JSON.parse(jsonFile);
 
-        if(!metaData.image.includes('https://')) {
+        if(!metaData.file_url.includes('https://')) {
           await _limit()
           const url = "https://api.nftport.xyz/v0/files";
           const formData = new FormData();
@@ -37,6 +37,7 @@ async function main() {
             body: formData,
           };
           const response = await fetchWithRetry(url, options);
+          metaData.file_url = response.ipfs_url;
           metaData.image = response.ipfs_url;
 
           fs.writeFileSync(

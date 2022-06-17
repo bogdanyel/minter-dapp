@@ -4,6 +4,7 @@ const { AUTH } = require(`${basePath}/src/config.js`);
 
 function fetchNoRetry(url, options) {
   return new Promise((resolve, reject) => {
+      console.log(AUTH);
       options.headers.Authorization = AUTH;
 
       fetch(url, options)

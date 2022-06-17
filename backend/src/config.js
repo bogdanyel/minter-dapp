@@ -45,43 +45,29 @@ const extraMetadata = {
 };
 
 // NFTPort Info
-
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
-// REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Fantasy Planets';
 const CONTRACT_SYMBOL = 'FTSY';
+const CONTRACT_TYPE = 'erc721';
+const MINT_TO_ADDRESS = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d';
-const TREASURY_ADDRESS = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d';
-const MAX_SUPPLY = 3600; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.0025;// 10; MATIC // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
-
-// REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-07-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
-
-// OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d"; // Address that will receive the royalty
-const BASE_URI = null; // only update if you want to manually set the base uri
-const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = [
-  '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d'
-]; // only update if you want to manually set the whitelisted addresses
-
+const ROYALTY_ADDRESS = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d'; // Address that will receive the royalty
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x8B71536880718FC594023C6386D0DEbaFDe4CF5c"; // If you want to manually include it
-
+let CONTRACT_ADDRESS = "0xF01900e7506E537756525B2c10d119A7A5058441"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
+const GENERIC_TITLE = "Fantasy Planet"; // Replace with what you want the generic titles to say.
 const GENERIC_DESCRIPTION = "Which Fantasy Planet will you get?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = [
+  "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq"
+]; // Replace with your generic image(s). If multiple, separate with a comma.
+const REVEAL_PROMPT = true; // Set to false if you want to disable the prompt to confirm each reveal.
+const INTERVAL = 900000; // Milliseconds. This is the interval for it to check for sales and reveal the NFT. 900000 = 15 minutes.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
@@ -182,24 +168,18 @@ module.exports = {
   AUTH,
   LIMIT,
   CONTRACT_ADDRESS,
-  OWNER_ADDRESS,
-  TREASURY_ADDRESS,
+  MINT_TO_ADDRESS,
   CHAIN,
   GENERIC,
   GENERIC_TITLE,
   GENERIC_DESCRIPTION,
   GENERIC_IMAGE,
+  INTERVAL,
   CONTRACT_NAME,
   CONTRACT_SYMBOL,
+  CONTRACT_TYPE,
+  REVEAL_PROMPT,
   METADATA_UPDATABLE,
   ROYALTY_SHARE,
   ROYALTY_ADDRESS,
-  MAX_SUPPLY,
-  MINT_PRICE,
-  TOKENS_PER_MINT,
-  PRESALE_MINT_START_DATE,
-  PUBLIC_MINT_START_DATE,
-  BASE_URI,
-  PREREVEAL_TOKEN_URI,
-  PRESALE_WHITELISTED_ADDRESSES
 };

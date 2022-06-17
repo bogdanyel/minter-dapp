@@ -7,27 +7,38 @@ const {
   GENERIC_TITLE,
   GENERIC_DESCRIPTION,
   GENERIC_IMAGE,
-  extraMetadata
 } = require(`${basePath}/src/config.js`);
 
 if (!fs.existsSync(path.join(buildDir, "/genericJson"))) {
   fs.mkdirSync(path.join(buildDir, "/genericJson"));
 }
 
+let rawdata = fs.readFileSync(`${buildDir}/json/_metadata.json`);
+let data = JSON.parse(rawdata);
+
 console.log("Starting generic metadata creation.");
 
-const genericObject = {
-  "name": GENERIC_TITLE,
-  "description": GENERIC_DESCRIPTION,
-  "image": GENERIC_IMAGE,
-  "external_url": extraMetadata.external_url || null,
-  "date": 1654520799000,
-  "compiler": "Fantasy Art Generator v1.3"
+for (let item of data) {
+  const genericImage = GENERIC_IMAGE[Math.floor(Math.random() * GENERIC_IMAGE.length)];
+  const itemIndex = item.name.split("#")[1];
+  item.name = `${GENERIC_TITLE} #${itemIndex}`;
+  item.description = GENERIC_DESCRIPTION;
+  item.file_url = genericImage;
+  item.image = genericImage;
+  delete item.attributes;
+  delete item.custom_fields.dna;
+
+  fs.writeFileSync(
+    `${buildDir}/genericJson/${itemIndex}.json`,
+    JSON.stringify(item, null, 2)
+  );
+
+  console.log(`${item.name} copied and updated!`);
 }
 
 fs.writeFileSync(
   `${buildDir}/genericJson/_metadata.json`,
-  JSON.stringify(genericObject, null, 2)
+  JSON.stringify(data, null, 2)
 );
 
 console.log("Generic metadata created!");
