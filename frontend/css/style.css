@@ -276,7 +276,7 @@ hr.section-delimiter {
 
 .label {
   display: inline-block;
-  min-width: 200px;
+  min-width: 160px;
   text-align: right;
   margin-right: 5px;
   margin-bottom: 5px;
