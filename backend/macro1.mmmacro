@@ -1,33 +1,113 @@
-﻿1 | 2511 | 830 | 0 | Keypress Ctrl+ | t
-2 | 2320 | 703 | 0 | Keypress %string%
-3 | 2551 | 822 | 0 | Keypress %integer%
-4 | 2523 | 838 | 0 | Keypress %string1%
-5 | 2320 | 703 | 0 | Keypress enter
+﻿1 | 2511 | 830 | 50 | Keypress Ctrl+ | t
+
+
+2 | 2320 | 703 | 50 | Keypress %string%
+
+
+3 | 2551 | 822 | 50 | Keypress %integer%
+
+
+4 | 2523 | 838 | 50 | Keypress %string1%
+
+
+5 | 2320 | 703 | 50 | Keypress enter
+
+
 6 | RUN ACTION | WAIT SECONDS | +5
-7 | 2546 | 862 | 0 | Keypress %decimal%
-8 | 2546 | 862 | 0 | Keypress tab
-9 | 2546 | 862 | 0 | Keypress tab
-10 | 2546 | 862 | 0 | Keypress tab
-11 | 2546 | 862 | 0 | Keypress tab
-12 | 2546 | 862 | 0 | Keypress tab
-13 | 2546 | 862 | 0 | Keypress tab
-14 | 2546 | 862 | 0 | Keypress tab
-15 | 2546 | 862 | 0 | Keypress tab
-16 | 2546 | 862 | 0 | Keypress tab
-17 | 2546 | 862 | 0 | Keypress tab
-18 | 2546 | 862 | 0 | Keypress tab
-19 | 2546 | 862 | 0 | Keypress tab
-20 | 2546 | 862 | 0 | Keypress tab
-21 | 2546 | 862 | 0 | Keypress tab
-22 | 2646 | 862 | 0 | Keypress tab
-23 | 2546 | 862 | 0 | Keypress enter
-24 | 2546 | 862 | 2000 | Keypress tab
-25 | 2546 | 862 | 0 | Keypress tab
-26 | 2546 | 862 | 0 | Keypress tab
-28 | 2546 | 862 | 0 | Keypress enter
-29 | 2546 | 862 | 2000 | Keypress tab
-30 | 2546 | 862 | 0 | Keypress tab
-31 | 1228 | -936 | 0 | Keypress enter
-32 | RUN ACTION | WAIT SECONDS | +5
-33 | 1330 | -932 | 0 | Keypress Ctrl+ | w
-34 | RUN ACTION | DEFINE INTEGER VARIABLE | %INTEGER%::+1
+
+
+7 | 2546 | 862 | 50 | Keypress %decimal%
+
+
+8 | 2546 | 862 | 50 | Keypress tab
+
+
+9 | 2546 | 862 | 50 | Keypress tab
+
+
+10 | 2546 | 862 | 50 | Keypress tab
+
+
+11 | 2546 | 862 | 50 | Keypress tab
+
+
+12 | 2546 | 862 | 50 | Keypress tab
+
+
+13 | 2546 | 862 | 50 | Keypress tab
+
+
+14 | 2546 | 862 | 50 | Keypress tab
+
+
+15 | 2546 | 862 | 50 | Keypress tab
+
+16 | 535 | 589 | 50 | Keypress space
+
+
+17 | 2546 | 862 | 50 | Keypress tab
+
+
+18 | 2546 | 862 | 50 | Keypress tab
+
+
+19 | 2546 | 862 | 50 | Keypress tab
+
+
+20 | 2546 | 862 | 50 | Keypress tab
+
+
+21 | 2546 | 862 | 50 | Keypress tab
+
+
+22 | 2546 | 862 | 50 | Keypress tab
+
+
+23 | 2646 | 862 | 50 | Keypress tab
+
+24 | 2646 | 862 | 50 | Keypress tab
+
+25 | 2646 | 862 | 50 | Keypress tab
+
+26 | 2646 | 862 | 50 | Keypress tab
+
+27 | 2646 | 862 | 50 | Keypress tab
+
+28 | 2646 | 862 | 50 | Keypress tab
+
+29 | 2646 | 862 | 50 | Keypress tab
+
+30 | 2646 | 862 | 50 | Keypress tab
+
+
+31 | 2546 | 862 | 50 | Keypress enter
+
+
+32 | 2546 | 862 | 2000 | Keypress tab
+
+
+33 | 2546 | 862 | 0 | Keypress tab
+
+
+34 | 2546 | 862 | 0 | Keypress tab
+
+
+35 | 2546 | 862 | 0 | Keypress enter
+
+
+36 | 2546 | 862 | 2000 | Keypress tab
+
+
+37 | 2546 | 862 | 0 | Keypress tab
+
+
+38 | 1228 | -936 | 0 | Keypress enter
+
+
+39 | RUN ACTION | WAIT SECONDS | +5
+
+
+40 | 1330 | -932 | 0 | Keypress Ctrl+ | w
+
+
+41 | RUN ACTION | DEFINE INTEGER VARIABLE | %INTEGER%::+1

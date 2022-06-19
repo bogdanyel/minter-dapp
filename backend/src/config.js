@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Fantasy Planets";
-const description = "This collection contains 3600 unique fantasy planets as part of a 1/1 edition. " +
+const description = "This collection contains 3600 unique fantasy planets as part of a single edition release. " +
   "From our own galaxy or a far away one, each mystical planet and its fellows have " +
   "their own unique terrain, background, size, speed and direction of rotation. " +
   "Get your own now!";
@@ -48,7 +48,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 const CONTRACT_NAME = 'Fantasy Planets';
 const CONTRACT_SYMBOL = 'FTSY';
@@ -56,9 +56,9 @@ const CONTRACT_TYPE = 'erc721';
 const MINT_TO_ADDRESS = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d'; // Address that will receive the royalty
+const ROYALTY_ADDRESS = '0x17b673Da622F20aF8824B96E7887A32844b30Be0'; // Address that will receive the royalty
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0xF01900e7506E537756525B2c10d119A7A5058441"; // If you want to manually include it
+let CONTRACT_ADDRESS = ""; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = "Fantasy Planet"; // Replace with what you want the generic titles to say.
