@@ -40,6 +40,10 @@
   z-index: 1;
 }
 
+.timeline-container.done::after {
+  background-color: green;
+}
+
 /* Place the container to the left */
 .timeline-left {
   left: 0;
