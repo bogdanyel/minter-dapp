@@ -1,0 +1,10 @@
+{
+  "response": "OK",
+  "chain": "polygon",
+  "transaction_hash": "0xb600f869b5d62cdca7d0cff771ebe213e7f0dbbdda42f70756e2ad65201afedc",
+  "transaction_external_url": "https://polygonscan.com/tx/0xb600f869b5d62cdca7d0cff771ebe213e7f0dbbdda42f70756e2ad65201afedc",
+  "owner_address": "0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d",
+  "type": "erc721",
+  "name": "Fantasy Planets",
+  "symbol": "FTSY"
+}

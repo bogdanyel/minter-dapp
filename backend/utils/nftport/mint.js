@@ -115,6 +115,7 @@ async function main() {
           },
           body: JSON.stringify(mintInfo),
         };
+        console.log(options);
         let mintData = await fetchWithRetry(url, options);
         const combinedData = {
           metaData: meta,

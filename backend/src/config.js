@@ -50,7 +50,7 @@ const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to preven
 const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
-const CONTRACT_NAME = 'Fantasy Planets';
+const CONTRACT_NAME = 'Fantasy Planets NFT';
 const CONTRACT_SYMBOL = 'FTSY';
 const CONTRACT_TYPE = 'erc721';
 const MINT_TO_ADDRESS = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d';
@@ -58,7 +58,7 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = '0x17b673Da622F20aF8824B96E7887A32844b30Be0'; // Address that will receive the royalty
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = ""; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x0Da302395B483f87b6bD5E88A7aAa3863b24FB67"; // If you want to manually include it
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = "Fantasy Planet"; // Replace with what you want the generic titles to say.

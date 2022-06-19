@@ -14,6 +14,7 @@ function fetchNoRetry(url, options) {
           if (status === 200) {
             return res.json();
           } else {
+            console.log(res.statusText);
             throw `ERROR STATUS: ${status}`;
           }
         })
@@ -42,6 +43,7 @@ function fetchWithRetry(url, options) {
           if (status === 200) {
             return res.json();
           } else {
+            console.log(res.statusText);
             throw `ERROR STATUS: ${status}`;
           }
         })
