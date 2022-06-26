@@ -1,0 +1,53 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreid3pugeqporpu3cw6ylvn65qsiy6y6j376ug6tp2skl3u7kbvt4j4",
+  "name": "Fantasy Planet #2627",
+  "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+  "file_url": "https://ipfs.io/ipfs/bafybeiaallxb5szmjblckb37prrm6cvp6th4zhqvs3ix7taqo4xejtm2qe",
+  "external_url": "https://www.fantasyplanets.world",
+  "animation_url": null,
+  "custom_fields": {
+    "dna": "5fef107211b74acc9e94b58e5a716cd4",
+    "edition": 1,
+    "date": 1653917358748,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Calm Blue",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Planet Type",
+      "value": "Chthorian",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Galaxy",
+      "value": "Milky Way",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Rotation Speed",
+      "value": "Fast",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Direction of Rotation",
+      "value": "Clockwise",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Size",
+      "value": "Average",
+      "max_value": null,
+      "display_type": null
+    }
+  ]
+}

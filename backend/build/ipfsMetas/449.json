@@ -1,0 +1,53 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreiamok32rank4me7gbnxrbmmgp4gxemqmbsvmrsx25xvvkmtywqb2m",
+  "name": "Fantasy Planet #449",
+  "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+  "file_url": "https://ipfs.io/ipfs/bafybeiery2jgkrgguouuxhgvcl7cac6vg4rob2dqvmt6rwivy75ljwteyi",
+  "external_url": "https://www.fantasyplanets.world",
+  "animation_url": null,
+  "custom_fields": {
+    "dna": "d6816dbc0cb74c0eb656c6e63405e617",
+    "edition": 1,
+    "date": 1653765732412,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Tail Wind",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Planet Type",
+      "value": "Gas Giant",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Galaxy",
+      "value": "Milky Way",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Rotation Speed",
+      "value": "Average",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Direction of Rotation",
+      "value": "Clockwise",
+      "max_value": null,
+      "display_type": null
+    },
+    {
+      "trait_type": "Size",
+      "value": "Giant",
+      "max_value": null,
+      "display_type": null
+    }
+  ]
+}

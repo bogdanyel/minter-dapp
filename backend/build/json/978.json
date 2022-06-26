@@ -1,0 +1,39 @@
+{
+  "name": "Fantasy Planet #978",
+  "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+  "image": "https://ipfs.io/ipfs/bafybeiduxnub3irhj5yxxzef4vcwhznazfawl7aeco2p6lbn2km4erxso4",
+  "file_url": "https://ipfs.io/ipfs/bafybeiduxnub3irhj5yxxzef4vcwhznazfawl7aeco2p6lbn2km4erxso4",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Deep Sky"
+    },
+    {
+      "trait_type": "Planet Type",
+      "value": "Terrestrial"
+    },
+    {
+      "trait_type": "Galaxy",
+      "value": "Eye of Sauron"
+    },
+    {
+      "trait_type": "Rotation Speed",
+      "value": "Dead Slow"
+    },
+    {
+      "trait_type": "Direction of Rotation",
+      "value": "Clockwise"
+    },
+    {
+      "trait_type": "Size",
+      "value": "Average"
+    }
+  ],
+  "custom_fields": {
+    "dna": "95aff0eb4a9045488bd2d858550ca4cb",
+    "edition": 1,
+    "date": 1653802281427,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "external_url": "https://www.fantasyplanets.world"
+}

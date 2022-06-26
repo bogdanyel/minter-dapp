@@ -1,0 +1,15 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreibvq4vl72c2yaiofbtnxv5em3bz3z7omkp7mvm36xzzmobtecycja",
+  "name": "Fantasy Planet #1958",
+  "description": "Which Fantasy Planet will you get?",
+  "file_url": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+  "external_url": "https://www.fantasyplanets.world",
+  "animation_url": null,
+  "custom_fields": {
+    "edition": 1,
+    "date": 1653870349317,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "attributes": null
+}

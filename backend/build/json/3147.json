@@ -1,0 +1,39 @@
+{
+  "name": "Fantasy Planet #3147",
+  "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+  "image": "https://ipfs.io/ipfs/bafybeiex5ovxdnguzyzpt6tmhynemsouxu4r5mnnskc7abpqdruvh4ekw4",
+  "file_url": "https://ipfs.io/ipfs/bafybeiex5ovxdnguzyzpt6tmhynemsouxu4r5mnnskc7abpqdruvh4ekw4",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Deep Sky"
+    },
+    {
+      "trait_type": "Planet Type",
+      "value": "Desert"
+    },
+    {
+      "trait_type": "Galaxy",
+      "value": "Andromeda"
+    },
+    {
+      "trait_type": "Rotation Speed",
+      "value": "Dead Slow"
+    },
+    {
+      "trait_type": "Direction of Rotation",
+      "value": "Counter Clockwise"
+    },
+    {
+      "trait_type": "Size",
+      "value": "Average"
+    }
+  ],
+  "custom_fields": {
+    "dna": "41bbfd7ff36f4508b2d1d37d01e24eeb",
+    "edition": 1,
+    "date": 1653953541756,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "external_url": "https://www.fantasyplanets.world"
+}

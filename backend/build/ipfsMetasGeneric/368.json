@@ -1,0 +1,15 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreicfhaduv6tly4knvdulynfp4l5zyny3pli7psg6rkr4tqe7xcavl4",
+  "name": "Fantasy Planet #368",
+  "description": "Which Fantasy Planet will you get?",
+  "file_url": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+  "external_url": "https://www.fantasyplanets.world",
+  "animation_url": null,
+  "custom_fields": {
+    "edition": 1,
+    "date": 1653760085914,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "attributes": null
+}

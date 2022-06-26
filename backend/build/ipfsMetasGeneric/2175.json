@@ -1,0 +1,15 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreigsgikvm6tje7xrqsac32hr6zwtbd3g4ipogpio4bdhrw4ynqjq7m",
+  "name": "Fantasy Planet #2175",
+  "description": "Which Fantasy Planet will you get?",
+  "file_url": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+  "external_url": "https://www.fantasyplanets.world",
+  "animation_url": null,
+  "custom_fields": {
+    "edition": 1,
+    "date": 1653885284748,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "attributes": null
+}

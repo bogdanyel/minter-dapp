@@ -1,0 +1,39 @@
+{
+  "name": "Fantasy Planet #1947",
+  "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+  "image": "https://ipfs.io/ipfs/bafybeigpgd5nhnd362honj4jmpuvqcbjy6ltxjknk3lnh3drtbfl22v3py",
+  "file_url": "https://ipfs.io/ipfs/bafybeigpgd5nhnd362honj4jmpuvqcbjy6ltxjknk3lnh3drtbfl22v3py",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Evening Star"
+    },
+    {
+      "trait_type": "Planet Type",
+      "value": "Ocean Planet"
+    },
+    {
+      "trait_type": "Galaxy",
+      "value": "Whirlpool"
+    },
+    {
+      "trait_type": "Rotation Speed",
+      "value": "Dead Slow"
+    },
+    {
+      "trait_type": "Direction of Rotation",
+      "value": "Clockwise"
+    },
+    {
+      "trait_type": "Size",
+      "value": "Average"
+    }
+  ],
+  "custom_fields": {
+    "dna": "e090ec6acc2e457ea4bc7e7fb5f5a64c",
+    "edition": 1,
+    "date": 1653869511725,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "external_url": "https://www.fantasyplanets.world"
+}

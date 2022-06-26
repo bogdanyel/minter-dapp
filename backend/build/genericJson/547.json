@@ -1,0 +1,12 @@
+{
+  "name": "Fantasy Planet #547",
+  "description": "Which Fantasy Planet will you get?",
+  "image": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+  "file_url": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+  "custom_fields": {
+    "edition": 1,
+    "date": 1653772709922,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "external_url": "https://www.fantasyplanets.world"
+}

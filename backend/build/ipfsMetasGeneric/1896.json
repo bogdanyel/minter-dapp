@@ -1,0 +1,15 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreibjdi2czl3n4qev7jdajj2oryp6jbhzy4sohxdt7dtkil7sr5cgqa",
+  "name": "Fantasy Planet #1896",
+  "description": "Which Fantasy Planet will you get?",
+  "file_url": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+  "external_url": "https://www.fantasyplanets.world",
+  "animation_url": null,
+  "custom_fields": {
+    "edition": 1,
+    "date": 1653865820326,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "attributes": null
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Fantasy Planet #1981",
+  "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+  "image": "https://ipfs.io/ipfs/bafybeiau3cmevioezjzzavanuiufrw6kroc7lqn5fukotrhmnhanachcbi",
+  "file_url": "https://ipfs.io/ipfs/bafybeiau3cmevioezjzzavanuiufrw6kroc7lqn5fukotrhmnhanachcbi",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Deep Sky"
+    },
+    {
+      "trait_type": "Planet Type",
+      "value": "Hycean"
+    },
+    {
+      "trait_type": "Galaxy",
+      "value": "Milky Way"
+    },
+    {
+      "trait_type": "Rotation Speed",
+      "value": "Average"
+    },
+    {
+      "trait_type": "Direction of Rotation",
+      "value": "Counter Clockwise"
+    },
+    {
+      "trait_type": "Size",
+      "value": "Average"
+    }
+  ],
+  "custom_fields": {
+    "dna": "880b4f592e4b43d3ae2ff938a766f955",
+    "edition": 1,
+    "date": 1653871932333,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "external_url": "https://www.fantasyplanets.world"
+}

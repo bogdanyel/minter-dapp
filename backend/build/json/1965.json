@@ -1,0 +1,39 @@
+{
+  "name": "Fantasy Planet #1965",
+  "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+  "image": "https://ipfs.io/ipfs/bafybeih7txvielbl4jch44mssukl33ff2jhlb3k246z76b5h566qttpu3y",
+  "file_url": "https://ipfs.io/ipfs/bafybeih7txvielbl4jch44mssukl33ff2jhlb3k246z76b5h566qttpu3y",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Tail Wind"
+    },
+    {
+      "trait_type": "Planet Type",
+      "value": "Chthorian"
+    },
+    {
+      "trait_type": "Galaxy",
+      "value": "Sculptor"
+    },
+    {
+      "trait_type": "Rotation Speed",
+      "value": "Lightning Fast"
+    },
+    {
+      "trait_type": "Direction of Rotation",
+      "value": "Clockwise"
+    },
+    {
+      "trait_type": "Size",
+      "value": "Dwarf"
+    }
+  ],
+  "custom_fields": {
+    "dna": "7d1bb9ca6fc74a1d95c6f755a5b06e95",
+    "edition": 1,
+    "date": 1653870671020,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "external_url": "https://www.fantasyplanets.world"
+}

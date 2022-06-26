@@ -1,0 +1,39 @@
+{
+  "name": "Fantasy Planet #2020",
+  "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+  "image": "https://ipfs.io/ipfs/bafybeig5ibp6h43ztfbofmdaa456pe2hbwz6cu72abasf57i7u2753sl2m",
+  "file_url": "https://ipfs.io/ipfs/bafybeig5ibp6h43ztfbofmdaa456pe2hbwz6cu72abasf57i7u2753sl2m",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Tail Wind"
+    },
+    {
+      "trait_type": "Planet Type",
+      "value": "Chthorian"
+    },
+    {
+      "trait_type": "Galaxy",
+      "value": "Fireworks"
+    },
+    {
+      "trait_type": "Rotation Speed",
+      "value": "Slow"
+    },
+    {
+      "trait_type": "Direction of Rotation",
+      "value": "Clockwise"
+    },
+    {
+      "trait_type": "Size",
+      "value": "Dwarf"
+    }
+  ],
+  "custom_fields": {
+    "dna": "bc1290df8dfc45d9bf821b0e70ec0339",
+    "edition": 1,
+    "date": 1653874608491,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "external_url": "https://www.fantasyplanets.world"
+}

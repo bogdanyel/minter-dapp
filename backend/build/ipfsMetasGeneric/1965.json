@@ -1,0 +1,15 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreicf5jukwearjb7dppmfpe6piztx56na7ok6ubkksk5u2s5kdaohbq",
+  "name": "Fantasy Planet #1965",
+  "description": "Which Fantasy Planet will you get?",
+  "file_url": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+  "external_url": "https://www.fantasyplanets.world",
+  "animation_url": null,
+  "custom_fields": {
+    "edition": 1,
+    "date": 1653870671020,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "attributes": null
+}

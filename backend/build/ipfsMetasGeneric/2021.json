@@ -1,0 +1,15 @@
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreibuqdhzr5hkujfedlnhjeo7axeg2fbfjhs34pn5xc2ilvskqwfkzi",
+  "name": "Fantasy Planet #2021",
+  "description": "Which Fantasy Planet will you get?",
+  "file_url": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+  "external_url": "https://www.fantasyplanets.world",
+  "animation_url": null,
+  "custom_fields": {
+    "edition": 1,
+    "date": 1653874693783,
+    "compiler": "Fantasy Art Generator v1.3"
+  },
+  "attributes": null
+}
