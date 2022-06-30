@@ -4,8 +4,9 @@ const basePath = process.cwd();
 const fs = require("fs");
 
 var dict = {};
-dict[5] = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d';
-dict[6] = '0x17b673Da622F20aF8824B96E7887A32844b30Be0';
+dict[9] = '0x9a14A4fCEb73E9f18F581D3A23Ea76eB6e91d121';
+dict[10] = '0x9a14A4fCEb73E9f18F581D3A23Ea76eB6e91d121';
+dict[11] = '0x9a14A4fCEb73E9f18F581D3A23Ea76eB6e91d121';
 
 const yesno = require('yesno');
 
