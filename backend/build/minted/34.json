@@ -1,0 +1,26 @@
+{
+  "metaData": {
+    "response": "OK",
+    "metadata_uri": "ipfs://bafkreihswpp3q542ojx4fo5g7bnuwcfog4nktxltmn6vlsileopy56rz2i",
+    "name": "Fantasy Planet #34",
+    "description": "Which Fantasy Planet will you get?",
+    "file_url": "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq",
+    "external_url": "https://www.fantasyplanets.world",
+    "animation_url": null,
+    "custom_fields": {
+      "edition": 1,
+      "date": 1653736760598,
+      "compiler": "Fantasy Art Generator v1.3"
+    },
+    "attributes": null
+  },
+  "mintData": {
+    "response": "OK",
+    "chain": "polygon",
+    "contract_address": "0x0Da302395B483f87b6bD5E88A7aAa3863b24FB67",
+    "transaction_hash": "0x4483891230c003faae2f0fb6f7d2815267ad9c97ad1028b2e7096e3ee9492f6c",
+    "transaction_external_url": "https://polygonscan.com/tx/0x4483891230c003faae2f0fb6f7d2815267ad9c97ad1028b2e7096e3ee9492f6c",
+    "metadata_uri": "ipfs://bafkreihswpp3q542ojx4fo5g7bnuwcfog4nktxltmn6vlsileopy56rz2i",
+    "mint_to_address": "0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d"
+  }
+}
