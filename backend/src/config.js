@@ -53,7 +53,7 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Fantasy Planets NFT';
 const CONTRACT_SYMBOL = 'FTSY';
 const CONTRACT_TYPE = 'erc721';
-const MINT_TO_ADDRESS = '0x6F3258f5B99f9846C9f7b5031c3b02B943e3318d';
+const MINT_TO_ADDRESS = '0x17b673Da622F20aF8824B96E7887A32844b30Be0';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const ROYALTY_SHARE = 750; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = '0x17b673Da622F20aF8824B96E7887A32844b30Be0'; // Address that will receive the royalty
@@ -66,7 +66,7 @@ const GENERIC_DESCRIPTION = "Which Fantasy Planet will you get?"; // Replace wit
 const GENERIC_IMAGE = [
   "https://ipfs.io/ipfs/bafybeihyajgw5iqn5x3ghnv64ogh7izctjjh3lksqjvh56bn32lbcehiaq"
 ]; // Replace with your generic image(s). If multiple, separate with a comma.
-const REVEAL_PROMPT = true; // Set to false if you want to disable the prompt to confirm each reveal.
+const REVEAL_PROMPT = false; // Set to false if you want to disable the prompt to confirm each reveal.
 const INTERVAL = 900000; // Milliseconds. This is the interval for it to check for sales and reveal the NFT. 900000 = 15 minutes.
 
 // Automatically set contract address if deployed using the deployContract.js script
