@@ -1,0 +1,62 @@
+{
+  "metaData": {
+    "response": "OK",
+    "metadata_uri": "ipfs://bafkreib4lglxmzff535yy5ozspfcpf5dd6tkbgz5tug4kghthq5d4vizn4",
+    "name": "Fantasy Planet #430",
+    "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+    "file_url": "https://ipfs.io/ipfs/bafybeiajwb23ixnfwoja2by7lyle6ofev2gsfnr3siyiw6qhyuzkb36nue",
+    "external_url": "https://www.fantasyplanets.world",
+    "animation_url": null,
+    "custom_fields": {
+      "dna": "ce96de84f4f243bfbbbb5f5408dc205f",
+      "edition": 1,
+      "date": 1653764302674,
+      "compiler": "Fantasy Art Generator v1.3"
+    },
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "A New Beginning",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Planet Type",
+        "value": "Gas Dwarf",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Galaxy",
+        "value": "Medusa Merger",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Rotation Speed",
+        "value": "Average",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Direction of Rotation",
+        "value": "Clockwise",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Size",
+        "value": "Average",
+        "max_value": null,
+        "display_type": null
+      }
+    ]
+  },
+  "updateData": {
+    "response": "OK",
+    "chain": "polygon",
+    "contract_address": "0x0Da302395B483f87b6bD5E88A7aAa3863b24FB67",
+    "transaction_hash": "0x6b1bebc0aeeaf922de2b7a61ad8d06d3c3d0ebd7408fab8608e9f6abee0bffd2",
+    "transaction_external_url": "https://polygonscan.com/tx/0x6b1bebc0aeeaf922de2b7a61ad8d06d3c3d0ebd7408fab8608e9f6abee0bffd2"
+  }
+}

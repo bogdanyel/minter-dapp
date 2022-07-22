@@ -1,0 +1,62 @@
+{
+  "metaData": {
+    "response": "OK",
+    "metadata_uri": "ipfs://bafkreibxpm4pbjdpj7jwgc6dljfjgkbdp6mhm3o4bf37ze43ju4pafqm6u",
+    "name": "Fantasy Planet #520",
+    "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+    "file_url": "https://ipfs.io/ipfs/bafybeib7vm5z6ukvzqxjbftgxctletzy72uwhn7ukr7iamjtt6sqohup4e",
+    "external_url": "https://www.fantasyplanets.world",
+    "animation_url": null,
+    "custom_fields": {
+      "dna": "bb033403f8884775a7c1075f293346e6",
+      "edition": 1,
+      "date": 1653770804375,
+      "compiler": "Fantasy Art Generator v1.3"
+    },
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Tail Wind",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Planet Type",
+        "value": "Terrestrial",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Galaxy",
+        "value": "Sculptor",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Rotation Speed",
+        "value": "Average",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Direction of Rotation",
+        "value": "Clockwise",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Size",
+        "value": "Dwarf",
+        "max_value": null,
+        "display_type": null
+      }
+    ]
+  },
+  "updateData": {
+    "response": "OK",
+    "chain": "polygon",
+    "contract_address": "0x0Da302395B483f87b6bD5E88A7aAa3863b24FB67",
+    "transaction_hash": "0x146ecbec2f1b4b26e17ce88d1d03d12996fa24f9351d4ddae0b099243e9af82e",
+    "transaction_external_url": "https://polygonscan.com/tx/0x146ecbec2f1b4b26e17ce88d1d03d12996fa24f9351d4ddae0b099243e9af82e"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "metaData": {
+    "response": "OK",
+    "metadata_uri": "ipfs://bafkreigvvfe7pj4meuywbsqlnyupppjxqc2ngexafrat4b3dsngwnksalq",
+    "name": "Fantasy Planet #428",
+    "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+    "file_url": "https://ipfs.io/ipfs/bafybeihdwqvnyutu3yooaqw64vafclmfh45hdb6oi5ili3kjkteinva3bm",
+    "external_url": "https://www.fantasyplanets.world",
+    "animation_url": null,
+    "custom_fields": {
+      "dna": "3933a2c53991459383a7bf5bad386766",
+      "edition": 1,
+      "date": 1653764108357,
+      "compiler": "Fantasy Art Generator v1.3"
+    },
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Tail Wind",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Planet Type",
+        "value": "Ocean Planet",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Galaxy",
+        "value": "Andromeda",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Rotation Speed",
+        "value": "Average",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Direction of Rotation",
+        "value": "Clockwise",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Size",
+        "value": "Giant",
+        "max_value": null,
+        "display_type": null
+      }
+    ]
+  },
+  "updateData": {
+    "response": "OK",
+    "chain": "polygon",
+    "contract_address": "0x0Da302395B483f87b6bD5E88A7aAa3863b24FB67",
+    "transaction_hash": "0x2ac4752f9eebfbf65b7c68ab73b734587f7d7747edc0bbabcf2fdc3110ba62dc",
+    "transaction_external_url": "https://polygonscan.com/tx/0x2ac4752f9eebfbf65b7c68ab73b734587f7d7747edc0bbabcf2fdc3110ba62dc"
+  }
+}

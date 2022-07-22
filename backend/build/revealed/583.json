@@ -1,0 +1,62 @@
+{
+  "metaData": {
+    "response": "OK",
+    "metadata_uri": "ipfs://bafkreihkutdllhvwgbcwhqb3frsi2cs24s6hsnbnad6ktelzehkywtdbce",
+    "name": "Fantasy Planet #583",
+    "description": "This collection contains 3600 unique fantasy planets as part of a single edition release.\nFrom our own galaxy or a far away one, each mystical planet and its fellows have their own unique terrain, background, size, speed and direction of rotation.\nGet your own now!",
+    "file_url": "https://ipfs.io/ipfs/bafybeibcm6zl7fik2hhiiolxi2h5ttbzgoftgrc2wj5ng5hy52a7ywuave",
+    "external_url": "https://www.fantasyplanets.world",
+    "animation_url": null,
+    "custom_fields": {
+      "dna": "362056c3b1dc40ea92aaf50d3c2b812b",
+      "edition": 1,
+      "date": 1653775183307,
+      "compiler": "Fantasy Art Generator v1.3"
+    },
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "A New Beginning",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Planet Type",
+        "value": "Poison Giant",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Galaxy",
+        "value": "Pinwheel",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Rotation Speed",
+        "value": "Average",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Direction of Rotation",
+        "value": "Clockwise",
+        "max_value": null,
+        "display_type": null
+      },
+      {
+        "trait_type": "Size",
+        "value": "Dwarf",
+        "max_value": null,
+        "display_type": null
+      }
+    ]
+  },
+  "updateData": {
+    "response": "OK",
+    "chain": "polygon",
+    "contract_address": "0x0Da302395B483f87b6bD5E88A7aAa3863b24FB67",
+    "transaction_hash": "0xb04dadac21fe7c4fc8d00b6455316c3256db0184a72753895ad72fcc7aadefda",
+    "transaction_external_url": "https://polygonscan.com/tx/0xb04dadac21fe7c4fc8d00b6455316c3256db0184a72753895ad72fcc7aadefda"
+  }
+}
